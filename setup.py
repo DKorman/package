@@ -16,7 +16,7 @@ setuptools.setup(
     #     "Bug Tracker": "https://github.com/mike-huls/toolbox/issues"
     # },
     license='Clstrlobe',
-    packages=['ml_pipeline', 'test_package', 'test_package2', 'submodule'],
+    packages=['ml_pipeline', 'test_package', 'test_package2'],
     # packages=setuptools.find_packages(),
     install_requires=[
         'joblib>=1.1.0',
