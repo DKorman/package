@@ -25,9 +25,9 @@ __author__ = "davor_korman"
 # from ml_pipeline.data_exploratory_analysis.base_eda import BaseExploratoryDataAnalysis
 # from .data_exploratory_analysis import BaseExploratoryDataAnalysis
 
-import ml_pipeline.data_exploratory_analysis as eda
+import ml_pipeline.data_exploratory_analysis.base_eda as base_eda
 
-BaseExploratoryDataAnalysis = eda.base_eda.BaseExploratoryDataAnalysis
+BaseExploratoryDataAnalysis = base_eda.BaseExploratoryDataAnalysis
 
 
 __all__ = [
