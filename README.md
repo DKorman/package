@@ -28,16 +28,18 @@ In Clstrlobe, we have decoupled the process of Feature engineering and Model bui
 │   ├───utility
 ```
 
-* >model_eval<: contains graph and metric classes used for evaluating the model
-* 'model_building/': contains code for building and serializing models
-  * 'model_base/': core component of model building - contains classes that apply preprocesing, training algorithm and save the trained objects
-  * 'model_trainers' : contains wrapper classes for commonly used ML algorithms
-  * 'model_strategies': contains classes that wrap model_base, model_trainers and model_eval classes into a training schema (e.g. K fold crossvalidation)
-* 'data_exploratory_analysis': colletion of tools used for performing generalized (semi)automated EDA
-* 'data_preprocessing': colletion of techniques for peforming various data transformation before modelling
-* 'data_quality_checking': contains tools for checking quality of input data and logging data distributions over time
-* 'feature_engineering': contains certain FE steps which must be done separately for train vs. test dataset 
-* 'feature_engineering': various utility functions
+* `model_eval`: contains graph and metric classes used for evaluating the model
+* `model_building/`: contains code for building and serializing models
+  * `model_base/`: core component of model building - contains classes that apply preprocesing, training algorithm and save the trained objects
+  * `model_trainers` : contains wrapper classes for commonly used ML algorithms
+  * `model_strategies`: contains classes that wrap model_base, model_trainers and model_eval classes into a training schema (e.g. K fold crossvalidation)
+* `data_exploratory_analysis`: colletion of tools used for performing generalized (semi)automated EDA
+* `data_preprocessing`: colletion of techniques for peforming various data transformation before modelling
+* `data_quality_checking`: contains tools for checking quality of input data and logging data distributions over time
+* `feature_engineering`: contains certain FE steps which must be done separately for train vs. test dataset 
+* `feature_engineering`: various utility functions
+
+
 
 
 
