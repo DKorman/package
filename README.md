@@ -39,7 +39,13 @@ In Clstrlobe, we have decoupled the process of Feature engineering and Model bui
 * `feature_engineering`: contains certain FE steps which must be done separately for train vs. test dataset 
 * `feature_engineering`: various utility functions
 
+## Installation
 
+Library can be installed either by ssh or https. You need to have permission to download from the repo and a VPN connection.
+
+`pip install git+ssh://git@projects.backoffice.hr:7999/clstrlob/ml_pipeline.git@develop`
+* if you want to use https, use prefix `git+https://`
+* you can specify branches to download, e.g. develop, master etc.
 
 
 
