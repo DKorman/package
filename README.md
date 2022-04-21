@@ -26,7 +26,7 @@ In Clstrlobe, we have decoupled the process of Feature engineering and Model bui
 │   │   ├───graphs
 │   │   ├───metrics
 │   ├───utility
-'''
+```
 
 * 'model_eval': contains graph and metric classes used for evaluating the model
 * 'model_building/': contains code for building and serializing models
