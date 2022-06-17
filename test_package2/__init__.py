@@ -1,1 +1,0 @@
-from test_package2.submodule.test2 import Test
